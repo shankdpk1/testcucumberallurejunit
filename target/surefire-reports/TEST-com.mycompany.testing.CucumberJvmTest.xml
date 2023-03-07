@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.testing.CucumberJvmTest" time="7.12" tests="79" errors="2" skipped="6" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.testing.CucumberJvmTest" time="4.918" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\shash\Downloads\tempiii\allure-cucumber-jvm-example\junit"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\shash\Downloads\tempiii\testcucumberjunitallure\testcucumberallurejunit"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,9 +15,8 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="test" value="com.mycompany.testing.CucumberJvmTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\shash\Downloads\tempiii\allure-cucumber-jvm-example\junit"/>
+    <property name="user.dir" value="C:\Users\shash\Downloads\tempiii\testcucumberjunitallure\testcucumberallurejunit"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -46,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=com.mycompany.testing.CucumberJvmTest"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,107 +64,21 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Дано первое число 5" classname="Сценарий: Сложение одинарное" time="0.003"/>
-  <testcase name="И второе число 5" classname="Сценарий: Сложение одинарное" time="0"/>
-  <testcase name="Когда я их складываю" classname="Сценарий: Сложение одинарное" time="0"/>
-  <testcase name="Тогда сумма равна 10" classname="Сценарий: Сложение одинарное" time="0"/>
-  <testcase name="Сценарий: Сложение одинарное" classname="Сценарий: Сложение одинарное" time="0.077"/>
-  <testcase name="Дано первое число 6" classname="| 6 | 6 | 12 |" time="0.001"/>
-  <testcase name="И второе число 6" classname="| 6 | 6 | 12 |" time="0"/>
-  <testcase name="Когда я их складываю" classname="| 6 | 6 | 12 |" time="0"/>
-  <testcase name="Тогда сумма равна 12" classname="| 6 | 6 | 12 |" time="0.001"/>
-  <testcase name="| 6 | 6 | 12 |" classname="| 6 | 6 | 12 |" time="0.002"/>
-  <testcase name="| 6 | 6 | 12 |" classname="| 6 | 6 | 12 |" time="0.002"/>
-  <testcase name="Дано первое число 5" classname="| 5 | 10 | 15 |" time="0"/>
-  <testcase name="И второе число 10" classname="| 5 | 10 | 15 |" time="0"/>
-  <testcase name="Когда я их складываю" classname="| 5 | 10 | 15 |" time="0.001"/>
-  <testcase name="Тогда сумма равна 15" classname="| 5 | 10 | 15 |" time="0"/>
-  <testcase name="| 5 | 10 | 15 |" classname="| 5 | 10 | 15 |" time="0.001"/>
-  <testcase name="| 5 | 10 | 15 |" classname="| 5 | 10 | 15 |" time="0.001"/>
-  <testcase name="Дано первое число 12" classname="| 12 | 5 | 17 |" time="0.001"/>
-  <testcase name="И второе число 5" classname="| 12 | 5 | 17 |" time="0.001"/>
-  <testcase name="Когда я их складываю" classname="| 12 | 5 | 17 |" time="0.001"/>
-  <testcase name="Тогда сумма равна 17" classname="| 12 | 5 | 17 |" time="0"/>
-  <testcase name="| 12 | 5 | 17 |" classname="| 12 | 5 | 17 |" time="0.006"/>
-  <testcase name="Дано первое число 22" classname="| 22 | 11 | 33 |" time="0.001"/>
-  <testcase name="И второе число 11" classname="| 22 | 11 | 33 |" time="0"/>
-  <testcase name="Когда я их складываю" classname="| 22 | 11 | 33 |" time="0.001"/>
-  <testcase name="Тогда сумма равна 33" classname="| 22 | 11 | 33 |" time="0"/>
-  <testcase name="| 22 | 11 | 33 |" classname="| 22 | 11 | 33 |" time="0.001"/>
-  <testcase name="Дано первое число 5" classname="Сценарий: Сложение одинарное2" time="0"/>
-  <testcase name="И второе число 5" classname="Сценарий: Сложение одинарное2" time="0"/>
-  <testcase name="Когда я их складываю" classname="Сценарий: Сложение одинарное2" time="0"/>
-  <testcase name="Тогда сумма равна 10" classname="Сценарий: Сложение одинарное2" time="0"/>
-  <testcase name="Сценарий: Сложение одинарное2" classname="Сценарий: Сложение одинарное2" time="0.001"/>
-  <testcase name="Дано первое число 1" classname="| 1 | 4 | 5 |" time="0.001"/>
-  <testcase name="И второе число 4" classname="| 1 | 4 | 5 |" time="0"/>
-  <testcase name="Когда я их складываю" classname="| 1 | 4 | 5 |" time="0"/>
-  <testcase name="Тогда сумма равна 5" classname="| 1 | 4 | 5 |" time="0"/>
-  <testcase name="| 1 | 4 | 5 |" classname="| 1 | 4 | 5 |" time="0.001"/>
-  <testcase name="Дано первое число 1" classname="| 1 | 2 | 3 |" time="0"/>
-  <testcase name="И второе число 2" classname="| 1 | 2 | 3 |" time="0"/>
-  <testcase name="Когда я их складываю" classname="| 1 | 2 | 3 |" time="0"/>
-  <testcase name="Тогда сумма равна 3" classname="| 1 | 2 | 3 |" time="0"/>
-  <testcase name="| 1 | 2 | 3 |" classname="| 1 | 2 | 3 |" time="0.001"/>
-  <testcase name="Дано первое число 3" classname="| 3 | 7 | 10 |" time="0"/>
-  <testcase name="И второе число 7" classname="| 3 | 7 | 10 |" time="0"/>
-  <testcase name="Когда я их складываю" classname="| 3 | 7 | 10 |" time="0"/>
-  <testcase name="Тогда сумма равна 10" classname="| 3 | 7 | 10 |" time="0"/>
-  <testcase name="| 3 | 7 | 10 |" classname="| 3 | 7 | 10 |" time="0.001"/>
-  <testcase name="Дано первое число 5" classname="| 5 | 10 | 16 |" time="0"/>
-  <testcase name="И второе число 10" classname="| 5 | 10 | 16 |" time="0"/>
-  <testcase name="Когда я их складываю" classname="| 5 | 10 | 16 |" time="0"/>
-  <testcase name="Тогда сумма равна 16" classname="| 5 | 10 | 16 |" time="0.016">
-    <failure message="expected:&lt;16&gt; but was:&lt;15&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<16> but was:<15>
-]]></failure>
-  </testcase>
-  <testcase name="| 5 | 10 | 16 |" classname="| 5 | 10 | 16 |" time="0.017">
-    <failure message="expected:&lt;16&gt; but was:&lt;15&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<16> but was:<15>
-]]></failure>
-  </testcase>
-  <testcase name="Дано первое число 5" classname="Сценарий: Сложение одинарное3" time="0"/>
-  <testcase name="И второе число 5" classname="Сценарий: Сложение одинарное3" time="0"/>
-  <testcase name="Когда я их складываю" classname="Сценарий: Сложение одинарное3" time="0"/>
-  <testcase name="Тогда сумма равна 10" classname="Сценарий: Сложение одинарное3" time="0"/>
-  <testcase name="Сценарий: Сложение одинарное3" classname="Сценарий: Сложение одинарное3" time="0"/>
-  <testcase name="Дано не реализованный сценарий" classname="Сценарий: Пропущен" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Когда он выполнен" classname="Сценарий: Пропущен" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Тогда его шаги отмечены как &quot;Skipped&quot;" classname="Сценарий: Пропущен" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Сценарий: Пропущен" classname="Сценарий: Пропущен" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Сценарий: Пропущен" classname="Сценарий: Пропущен" time="0.012"/>
-  <testcase name="Дано сломанный сценарий" classname="Сценарий: Сломан" time="0">
-    <error message="java.lang.Integer cannot be cast to java.lang.String" type="java.lang.ClassCastException">java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
-</error>
-  </testcase>
-  <testcase name="Сценарий: Сломан" classname="Сценарий: Сломан" time="0.001">
-    <error message="java.lang.Integer cannot be cast to java.lang.String" type="java.lang.ClassCastException">java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
-</error>
-  </testcase>
-  <testcase name="Когда отображается отчет" classname="Сценарий: Сломан" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="То видно исключение" classname="Сценарий: Сломан" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="Given print" classname="Scenario: Test 1" time="0"/>
+  <testcase name="Given print" classname="Scenario: Test 1" time="0"/>
+  <testcase name="Scenario: Test 1" classname="Scenario: Test 1" time="0.071"/>
+  <testcase name="Given print" classname="Scenario: Test 2" time="0"/>
+  <testcase name="Given print" classname="Scenario: Test 2" time="0"/>
+  <testcase name="Scenario: Test 2" classname="Scenario: Test 2" time="0"/>
+  <testcase name="Given print" classname="Scenario: Test 3" time="0"/>
+  <testcase name="Given print" classname="Scenario: Test 3" time="0"/>
+  <testcase name="Scenario: Test 3" classname="Scenario: Test 3" time="0"/>
+  <testcase name="Given print" classname="Scenario: Test 4" time="0"/>
+  <testcase name="Given print" classname="Scenario: Test 4" time="0"/>
+  <testcase name="Scenario: Test 4" classname="Scenario: Test 4" time="0"/>
   <testcase name="Given first digit 5" classname="Scenario: Test multiply" time="0"/>
-  <testcase name="And second digit 5" classname="Scenario: Test multiply" time="0.001"/>
+  <testcase name="And second digit 5" classname="Scenario: Test multiply" time="0"/>
   <testcase name="When I multiply it" classname="Scenario: Test multiply" time="0"/>
-  <testcase name="Then sum is 10" classname="Scenario: Test multiply" time="0.001"/>
-  <testcase name="Scenario: Test multiply" classname="Scenario: Test multiply" time="0.003"/>
-  <testcase name="Given first digit 6" classname="| 6 | 6 | 12 |" time="0"/>
-  <testcase name="And second digit 6" classname="| 6 | 6 | 12 |" time="0.001"/>
-  <testcase name="When I multiply it" classname="| 6 | 6 | 12 |" time="0"/>
-  <testcase name="Then sum is 12" classname="| 6 | 6 | 12 |" time="0"/>
-  <testcase name="Given first digit 5" classname="| 5 | 10 | 15 |" time="0.001"/>
-  <testcase name="And second digit 10" classname="| 5 | 10 | 15 |" time="0"/>
-  <testcase name="When I multiply it" classname="| 5 | 10 | 15 |" time="0.001"/>
-  <testcase name="Then sum is 15" classname="| 5 | 10 | 15 |" time="0"/>
+  <testcase name="Then sum is 10" classname="Scenario: Test multiply" time="0"/>
+  <testcase name="Scenario: Test multiply" classname="Scenario: Test multiply" time="0.002"/>
 </testsuite>
