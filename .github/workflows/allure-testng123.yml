@@ -21,6 +21,11 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
+      - uses: actions/setup-java@v3
+        with:
+         distribution: 'temurin' # See 'Supported distributions' for available options
+         java-version: '17'
+
 
       - name: maven restore
         uses: skjolber/maven-cache-github-action@v1
