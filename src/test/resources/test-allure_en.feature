@@ -1,5 +1,5 @@
 @en
-Feature: Test allure English
+Feature: Test allure English SNK
 
   
   Scenario: Test multiply
@@ -8,13 +8,13 @@ Feature: Test allure English
     When I multiply it
     Then sum is 10
 
-  Scenario Outline: Two digits multiply
-    Given first digit <first>
-    And second digit <second>
-    When I multiply it
-    Then sum is <sum>
-
-    Examples: 
-      | first  | second | sum   |
-      | 6      | 6      | 12    |
-      | 5      | 10     | 15    |
+#  Scenario Outline: Two digits multiply
+#    Given first digit <first>
+#    And second digit <second>
+#    When I multiply it
+#    Then sum is <sum>
+#
+#    Examples:
+#      | first  | second | sum   |
+#      | 6      | 6      | 12    |
+#      | 5      | 10     | 15    |

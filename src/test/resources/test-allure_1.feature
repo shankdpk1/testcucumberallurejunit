@@ -1,5 +1,5 @@
 @en
-Feature: Test allure 1
+Feature: Test allure SNK_1
 
 
   Scenario: Test 1
@@ -12,5 +12,10 @@ Feature: Test allure 1
     Given print
 
   Scenario: Test 3
+    Given print
+    Given print
+
+
+  Scenario: Test 4
     Given print
     Given print
