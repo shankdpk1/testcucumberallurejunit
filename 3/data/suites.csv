@@ -1,0 +1,31 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 07 02:52:14 GMT 2023","Tue Mar 07 02:52:14 GMT 2023","2","","Тест allure2","","Тест allure2","Сложение одинарное3","Сложение одинарное3","null
+
+null"
+"passed","Tue Mar 07 02:52:13 GMT 2023","Tue Mar 07 02:52:13 GMT 2023","625","","Тест allure","","Тест allure","Сложение одинарное","Сложение одинарное","null
+
+null"
+"skipped","Tue Mar 07 02:52:14 GMT 2023","Tue Mar 07 02:52:14 GMT 2023","10","","Тест allure2","","Тест allure2","Пропущен","Пропущен","null
+
+null"
+"passed","Tue Mar 07 02:52:14 GMT 2023","Tue Mar 07 02:52:14 GMT 2023","12","","Тест allure2","","Тест allure2","Сложение одинарное2","Сложение одинарное2","null
+
+null"
+"broken","Tue Mar 07 02:52:14 GMT 2023","Tue Mar 07 02:52:14 GMT 2023","326","","Тест allure2","","Тест allure2","Сломан","Сломан","null
+
+null"
+"passed","Tue Mar 07 02:52:13 GMT 2023","Tue Mar 07 02:52:13 GMT 2023","6","","Тест allure","","Тест allure","Сложение двух чисел","Сложение двух чисел","null
+
+null"
+"failed","Tue Mar 07 02:52:14 GMT 2023","Tue Mar 07 02:52:14 GMT 2023","30","","Тест allure2","","Тест allure2","Сложение двух чисел2","Сложение двух чисел2","null
+
+null"
+"passed","Tue Mar 07 02:52:14 GMT 2023","Tue Mar 07 02:52:14 GMT 2023","5","","Test allure English","","Test allure English","Two digits multiply","Two digits multiply","null
+
+null"
+"passed","Tue Mar 07 02:52:14 GMT 2023","Tue Mar 07 02:52:14 GMT 2023","20","","Test allure English","","Test allure English","Test multiply","Test multiply","null
+
+null"
+"passed","Tue Mar 07 02:52:13 GMT 2023","Tue Mar 07 02:52:13 GMT 2023","3","","Тест allure","","Тест allure","Сложение двух чисел еще раз","Сложение двух чисел еще раз","null
+
+null"
