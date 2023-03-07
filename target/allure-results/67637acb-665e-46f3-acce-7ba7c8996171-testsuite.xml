@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1678157532951" stop="1678157533804" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Тест allure</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1678157533074" stop="1678157533699" status="passed">
+            <name>Сложение одинарное</name>
+            <title>Сложение одинарное</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157533086" stop="1678157533673" status="passed">
+                    <name>Дано первое число 5</name>
+                    <title>Дано первое число 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533675" stop="1678157533675" status="passed">
+                    <name>И второе число 5</name>
+                    <title>И второе число 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533676" stop="1678157533676" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533676" stop="1678157533694" status="passed">
+                    <name>Тогда сумма равна 10</name>
+                    <title>Тогда сумма равна 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение одинарное"/>
+                <label name="feature" value="Тест allure"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157533772" stop="1678157533775" status="passed">
+            <name>Сложение двух чисел</name>
+            <title>Сложение двух чисел</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157533772" stop="1678157533773" status="passed">
+                    <name>Дано первое число 6</name>
+                    <title>Дано первое число 6</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533773" stop="1678157533773" status="passed">
+                    <name>И второе число 6</name>
+                    <title>И второе число 6</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533774" stop="1678157533774" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533774" stop="1678157533775" status="passed">
+                    <name>Тогда сумма равна 12</name>
+                    <title>Тогда сумма равна 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение двух чисел"/>
+                <label name="feature" value="Тест allure"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157533776" stop="1678157533782" status="passed">
+            <name>Сложение двух чисел</name>
+            <title>Сложение двух чисел</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157533780" stop="1678157533780" status="passed">
+                    <name>Дано первое число 5</name>
+                    <title>Дано первое число 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533781" stop="1678157533781" status="passed">
+                    <name>И второе число 10</name>
+                    <title>И второе число 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533781" stop="1678157533782" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533782" stop="1678157533782" status="passed">
+                    <name>Тогда сумма равна 15</name>
+                    <title>Тогда сумма равна 15</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение двух чисел"/>
+                <label name="feature" value="Тест allure"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157533784" stop="1678157533791" status="passed">
+            <name>Сложение двух чисел еще раз</name>
+            <title>Сложение двух чисел еще раз</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157533785" stop="1678157533786" status="passed">
+                    <name>Дано первое число 12</name>
+                    <title>Дано первое число 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533786" stop="1678157533787" status="passed">
+                    <name>И второе число 5</name>
+                    <title>И второе число 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533787" stop="1678157533788" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533790" stop="1678157533791" status="passed">
+                    <name>Тогда сумма равна 17</name>
+                    <title>Тогда сумма равна 17</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение двух чисел еще раз"/>
+                <label name="feature" value="Тест allure"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157533797" stop="1678157533800" status="passed">
+            <name>Сложение двух чисел еще раз</name>
+            <title>Сложение двух чисел еще раз</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157533797" stop="1678157533798" status="passed">
+                    <name>Дано первое число 22</name>
+                    <title>Дано первое число 22</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533798" stop="1678157533798" status="passed">
+                    <name>И второе число 11</name>
+                    <title>И второе число 11</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533798" stop="1678157533799" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157533799" stop="1678157533800" status="passed">
+                    <name>Тогда сумма равна 33</name>
+                    <title>Тогда сумма равна 33</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение двух чисел еще раз"/>
+                <label name="feature" value="Тест allure"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Тест allure"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

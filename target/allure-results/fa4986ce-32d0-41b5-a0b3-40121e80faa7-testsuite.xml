@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1678157534214" stop="1678157534619" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Тест allure2</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1678157534215" stop="1678157534227" status="passed">
+            <name>Сложение одинарное2</name>
+            <title>Сложение одинарное2</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157534215" stop="1678157534216" status="passed">
+                    <name>Дано первое число 5</name>
+                    <title>Дано первое число 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534217" stop="1678157534224" status="passed">
+                    <name>И второе число 5</name>
+                    <title>И второе число 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534225" stop="1678157534225" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534226" stop="1678157534226" status="passed">
+                    <name>Тогда сумма равна 10</name>
+                    <title>Тогда сумма равна 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение одинарное2"/>
+                <label name="feature" value="Тест allure2"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157534230" stop="1678157534234" status="passed">
+            <name>Сложение двух чисел2</name>
+            <title>Сложение двух чисел2</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157534231" stop="1678157534232" status="passed">
+                    <name>Дано первое число 1</name>
+                    <title>Дано первое число 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534232" stop="1678157534233" status="passed">
+                    <name>И второе число 4</name>
+                    <title>И второе число 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534233" stop="1678157534234" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534234" stop="1678157534234" status="passed">
+                    <name>Тогда сумма равна 5</name>
+                    <title>Тогда сумма равна 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение двух чисел2"/>
+                <label name="feature" value="Тест allure2"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157534236" stop="1678157534241" status="passed">
+            <name>Сложение двух чисел2</name>
+            <title>Сложение двух чисел2</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157534237" stop="1678157534237" status="passed">
+                    <name>Дано первое число 1</name>
+                    <title>Дано первое число 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534237" stop="1678157534238" status="passed">
+                    <name>И второе число 2</name>
+                    <title>И второе число 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534240" stop="1678157534240" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534240" stop="1678157534241" status="passed">
+                    <name>Тогда сумма равна 3</name>
+                    <title>Тогда сумма равна 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение двух чисел2"/>
+                <label name="feature" value="Тест allure2"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157534243" stop="1678157534246" status="passed">
+            <name>Сложение двух чисел2</name>
+            <title>Сложение двух чисел2</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157534243" stop="1678157534244" status="passed">
+                    <name>Дано первое число 3</name>
+                    <title>Дано первое число 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534244" stop="1678157534244" status="passed">
+                    <name>И второе число 7</name>
+                    <title>И второе число 7</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534245" stop="1678157534245" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534246" stop="1678157534246" status="passed">
+                    <name>Тогда сумма равна 10</name>
+                    <title>Тогда сумма равна 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение двух чисел2"/>
+                <label name="feature" value="Тест allure2"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157534247" stop="1678157534277" status="failed">
+            <name>Сложение двух чисел2</name>
+            <title>Сложение двух чисел2</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: expected:&lt;16&gt; but was:&lt;15&gt;</message>
+                <stack-trace>java.lang.AssertionError: expected:&lt;16&gt; but was:&lt;15&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.mycompany.testing.Steps.sum(Steps.java:48)
+	at ✽.Тогда сумма равна 16(test-allure2.feature:15)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1678157534248" stop="1678157534248" status="passed">
+                    <name>Дано первое число 5</name>
+                    <title>Дано первое число 5</title>
+                </step>
+                <step start="1678157534248" stop="1678157534249" status="passed">
+                    <name>И второе число 10</name>
+                    <title>И второе число 10</title>
+                </step>
+                <step start="1678157534249" stop="1678157534249" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                </step>
+                <step start="1678157534249" stop="1678157534277" status="failed">
+                    <name>Тогда сумма равна 16</name>
+                    <title>Тогда сумма равна 16</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение двух чисел2"/>
+                <label name="feature" value="Тест allure2"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157534279" stop="1678157534281" status="passed">
+            <name>Сложение одинарное3</name>
+            <title>Сложение одинарное3</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157534279" stop="1678157534280" status="passed">
+                    <name>Дано первое число 5</name>
+                    <title>Дано первое число 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534280" stop="1678157534280" status="passed">
+                    <name>И второе число 5</name>
+                    <title>И второе число 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534280" stop="1678157534281" status="passed">
+                    <name>Когда я их складываю</name>
+                    <title>Когда я их складываю</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157534281" stop="1678157534281" status="passed">
+                    <name>Тогда сумма равна 10</name>
+                    <title>Тогда сумма равна 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сложение одинарное3"/>
+                <label name="feature" value="Тест allure2"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157534283" stop="1678157534293" status="pending">
+            <name>Пропущен</name>
+            <title>Пропущен</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1678157534285" stop="1678157534290" status="canceled">
+                    <name>не реализованный сценарий</name>
+                    <title>не реализованный сценарий</title>
+                </step>
+                <step start="1678157534293" stop="1678157534293" status="canceled">
+                    <name>он выполнен</name>
+                    <title>он выполнен</title>
+                </step>
+                <step start="1678157534293" stop="1678157534293" status="canceled">
+                    <name>его шаги отмечены как "Skipped"</name>
+                    <title>его шаги отмечены как "Skipped"</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Пропущен"/>
+                <label name="feature" value="Тест allure2"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157534293" stop="1678157534619" status="broken">
+            <name>Сломан</name>
+            <title>Сломан</title>
+            <description type="text"></description>
+            <failure>
+                <message>ClassCastException: java.lang.Integer cannot be cast to java.lang.String</message>
+                <stack-trace>java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+	at com.mycompany.testing.Steps.brokenScenario(Steps.java:55)
+	at ✽.Дано сломанный сценарий(test-allure2.feature:36)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1678157534294" stop="1678157534619" status="broken">
+                    <name>Дано сломанный сценарий</name>
+                    <title>Дано сломанный сценарий</title>
+                    <attachments>
+                        <attachment title="createAttachment" source="f77a2265-b2f3-4ba9-ae73-52c1458ac4b0-attachment.txt" type="text/plain"/>
+                    </attachments>
+                </step>
+                <step start="1678157534619" stop="1678157534619" status="canceled">
+                    <name>Когда отображается отчет</name>
+                    <title>Когда отображается отчет</title>
+                </step>
+                <step start="1678157534619" stop="1678157534619" status="canceled">
+                    <name>То видно исключение</name>
+                    <title>То видно исключение</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Сломан"/>
+                <label name="feature" value="Тест allure2"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="22384@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Тест allure2"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

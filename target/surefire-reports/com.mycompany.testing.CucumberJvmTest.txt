@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.testing.CucumberJvmTest
+-------------------------------------------------------------------------------
+Tests run: 79, Failures: 2, Errors: 2, Skipped: 6, Time elapsed: 7.12 sec <<< FAILURE! - in com.mycompany.testing.CucumberJvmTest
+????? ????? ????? 16(| 5 | 10 | 16 |)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<16> but was:<15>
+
+| 5 | 10 | 16 |  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<16> but was:<15>
+
+???? ????????? ????????(????????: ??????)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+
+????????: ??????  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1678157296759" stop="1678157296776" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test allure English</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1678157296760" stop="1678157296765" status="passed">
+            <name>Test multiply</name>
+            <title>Test multiply</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157296760" stop="1678157296763" status="passed">
+                    <name>Given first digit 5</name>
+                    <title>Given first digit 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296763" stop="1678157296764" status="passed">
+                    <name>And second digit 5</name>
+                    <title>And second digit 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296764" stop="1678157296764" status="passed">
+                    <name>When I multiply it</name>
+                    <title>When I multiply it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296764" stop="1678157296765" status="passed">
+                    <name>Then sum is 10</name>
+                    <title>Then sum is 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test multiply"/>
+                <label name="feature" value="Test allure English"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="15136@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157296766" stop="1678157296769" status="passed">
+            <name>Two digits multiply</name>
+            <title>Two digits multiply</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157296767" stop="1678157296767" status="passed">
+                    <name>Given first digit 6</name>
+                    <title>Given first digit 6</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296767" stop="1678157296767" status="passed">
+                    <name>And second digit 6</name>
+                    <title>And second digit 6</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296768" stop="1678157296768" status="passed">
+                    <name>When I multiply it</name>
+                    <title>When I multiply it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296768" stop="1678157296769" status="passed">
+                    <name>Then sum is 12</name>
+                    <title>Then sum is 12</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Two digits multiply"/>
+                <label name="feature" value="Test allure English"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="15136@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1678157296773" stop="1678157296776" status="passed">
+            <name>Two digits multiply</name>
+            <title>Two digits multiply</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1678157296773" stop="1678157296774" status="passed">
+                    <name>Given first digit 5</name>
+                    <title>Given first digit 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296774" stop="1678157296774" status="passed">
+                    <name>And second digit 10</name>
+                    <title>And second digit 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296774" stop="1678157296775" status="passed">
+                    <name>When I multiply it</name>
+                    <title>When I multiply it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1678157296775" stop="1678157296775" status="passed">
+                    <name>Then sum is 15</name>
+                    <title>Then sum is 15</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Two digits multiply"/>
+                <label name="feature" value="Test allure English"/>
+                <label name="host" value="DESKTOP-04BK3GM"/>
+                <label name="thread" value="15136@DESKTOP-04BK3GM.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test allure English"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
