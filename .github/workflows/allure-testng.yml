@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn package
+        run: mvn test
         continue-on-error: true
 
       - name: Get gh-pages history
