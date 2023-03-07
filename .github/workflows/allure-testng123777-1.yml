@@ -1,4 +1,4 @@
-name: allureReportCucumber-2-WORKING
+name: allureReportCucumber-123777
 on:
   #  push:
   #    branches:
@@ -42,15 +42,19 @@ jobs:
           path: gh-pages
 
       - name: Allure Report action from marketplace
-        uses: simple-elf/allure-report-action@master
+        uses: ./allure-report-action
         if: always()
 #        id: allure-report
         with:
-          allure_results: target/allure-results
+          allure_results: build/allure-results
 #          gh_pages: gh-pages
-#          allure_report: allure-report
+          allure_report: allure-report
           allure_history: allure-history
-#          keep_reports: 30
+          keep_reports: 30
+
+      #      - name: Generate files
+      #        run: mkdir artifact && mkdir artifact2 && cd artifact
+      #        shell: bash
 
       - name: Deploy report to Github Pages
         if: always()
@@ -61,13 +65,13 @@ jobs:
           PUBLISH_DIR: allure-history
 
 
-    #      - name: Upload Pages artifact
-    #        uses: ./
-    #        with:
-    #          path: artifact
-    #
-    #      - name: Download artifact
-    #        uses: actions/download-artifact@v3
-    #        with:
-    #          name: github-pages
-    #          path: artifact2
+      #      - name: Upload Pages artifact
+      #        uses: ./
+      #        with:
+      #          path: artifact
+      #
+      #      - name: Download artifact
+      #        uses: actions/download-artifact@v3
+      #        with:
+      #          name: github-pages
+      #          path: artifact2
