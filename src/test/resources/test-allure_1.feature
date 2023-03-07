@@ -22,3 +22,6 @@ Feature: Test allure SNK_1
   Scenario: Test 5
     Given print
     Given print
+  Scenario: Test 6
+    Given print
+    Given print2
