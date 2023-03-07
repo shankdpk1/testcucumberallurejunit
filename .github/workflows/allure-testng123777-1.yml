@@ -1,4 +1,4 @@
-name: allureReportCucumber-123777
+name: allureReportCucumber-123777-1
 on:
   #  push:
   #    branches:
@@ -42,7 +42,7 @@ jobs:
           path: gh-pages
 
       - name: Allure Report action from marketplace
-        uses: ./allure-report-action
+        uses: simple-elf/allure-report-action@master
         if: always()
 #        id: allure-report
         with:
