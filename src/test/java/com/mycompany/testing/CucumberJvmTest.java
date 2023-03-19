@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = {"src/test/resources/"},
         plugin = {
 //                "timeline:test-output-thread/",
-                "pretty", "html:target/cucumber-html-report",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+                "pretty", "html:target/cucumber-html-report"
+//                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         })
 
 public class CucumberJvmTest {
