@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.testing.CucumberJvmTest" time="4.028" tests="24" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.testing.CucumberJvmTest" time="0.006" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,32 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given print" classname="Scenario: Test 1" time="0"/>
-  <testcase name="Given print" classname="Scenario: Test 1" time="0"/>
-  <testcase name="Scenario: Test 1" classname="Scenario: Test 1" time="0.05"/>
-  <testcase name="Given print" classname="Scenario: Test 2" time="0"/>
-  <testcase name="Given print" classname="Scenario: Test 2" time="0"/>
-  <testcase name="Scenario: Test 2" classname="Scenario: Test 2" time="0"/>
-  <testcase name="Given print" classname="Scenario: Test 3" time="0"/>
-  <testcase name="Given print" classname="Scenario: Test 3" time="0"/>
-  <testcase name="Scenario: Test 3" classname="Scenario: Test 3" time="0"/>
-  <testcase name="Given print" classname="Scenario: Test 4" time="0"/>
-  <testcase name="Given print" classname="Scenario: Test 4" time="0"/>
-  <testcase name="Scenario: Test 4" classname="Scenario: Test 4" time="0.002"/>
-  <testcase name="Given print" classname="Scenario: Test 5" time="0"/>
-  <testcase name="Given print" classname="Scenario: Test 5" time="0"/>
-  <testcase name="Scenario: Test 5" classname="Scenario: Test 5" time="0"/>
-  <testcase name="Given print" classname="Scenario: Test 6" time="0"/>
-  <testcase name="Given print2" classname="Scenario: Test 6" time="0">
-    <skipped/>
+  <testcase name="initializationError" classname="com.mycompany.testing.CucumberJvmTest" time="0.006">
+    <error message="Unrecognized plugin: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Unrecognized plugin: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:
+</error>
   </testcase>
-  <testcase name="Scenario: Test 6" classname="Scenario: Test 6" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Scenario: Test 6" classname="Scenario: Test 6" time="0.011"/>
-  <testcase name="Given first digit 5" classname="Scenario: Test multiply" time="0"/>
-  <testcase name="And second digit 5" classname="Scenario: Test multiply" time="0"/>
-  <testcase name="When I multiply it" classname="Scenario: Test multiply" time="0"/>
-  <testcase name="Then sum is 10" classname="Scenario: Test multiply" time="0"/>
-  <testcase name="Scenario: Test multiply" classname="Scenario: Test multiply" time="0.008"/>
 </testsuite>

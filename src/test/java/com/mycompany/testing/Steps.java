@@ -58,4 +58,9 @@ public class Steps {
         return content.getBytes();
     }
 
+    @And("^waiting$")
+    public void waiting() throws Throwable {
+        Thread.sleep(5000);
+        System.out.println("wait");;
+    }
 }

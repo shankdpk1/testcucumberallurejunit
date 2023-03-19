@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.testing.CucumberJvmTest
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 4.028 sec - in com.mycompany.testing.CucumberJvmTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE! - in com.mycompany.testing.CucumberJvmTest
+initializationError(com.mycompany.testing.CucumberJvmTest)  Time elapsed: 0.006 sec  <<< ERROR!
+cucumber.runtime.CucumberException: Unrecognized plugin: com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:
+
